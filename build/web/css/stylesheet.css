@@ -1,0 +1,409 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Mar, 2019, 6:35:06 PM
+    Author     : user
+*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Source+Code+Pro');
+.bgimg {
+    background-image: url(../img/art-artist-arts-and-crafts-1559046.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: 0.6;
+    height:600px;	
+}
+.head
+{
+    margin-top:120px;
+    text-align:left;
+    font-size:60px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 8px #666666;
+    font-family: 'Gudea', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.button {
+  background-color:#000;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:200px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 25px;
+  margin-top:10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button3 {
+  background-color:#eae4e4 ;
+  border: none;
+  color: #000;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:130px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 25px;
+  margin-top:10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24),0 20px 50px 0 rgba(0,0,0,0.19);
+}
+.introPara
+{
+	color:rgb(97, 97, 97);
+	margin-top:120px;
+	font-size:17px;
+  text-align:left;
+  margin-left: 25px;
+}
+.tag
+{
+	text-align:left;
+  margin-top:15px;
+  font-size: 18px;
+  margin-left: 90px;
+}
+.smallBox
+{
+	 height:320px;
+	 width:270px;
+         text-align: center;
+	 padding-bottom:20px;
+	 padding-left:10px;
+         margin-left: auto;
+         margin-right: auto;
+	 padding-top:20px;
+	 padding-right:10px;
+	 background-color:#FFF;
+         color:#000;
+         transition:  box-shadow ease-in-out 1s;
+	
+	
+}
+.smallBox:hover
+{
+    background-color: azure;
+     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+}
+.halfBoxWhite
+{
+	height:330px;
+        transition: box-shadow ease-in-out 1s;
+}
+.imageView
+{
+	width:500px;
+	 height:280px;	
+	margin-top:10px;
+	
+}
+
+.overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 20%;
+  right: 0;
+  overflow: hidden;
+  background-color: #666;
+  width: 0;
+  height:280px;
+  transition: .9s ease;
+  margin-left:55px;
+  opacity: 0.9;
+   box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24),0 20px 40px 0 rgba(0,0,0,0.19);
+  
+}
+.halfBoxWhite:hover .overlay {
+  width: 500px;
+  left: 0;
+  margin-right:70px;
+}
+
+.text {
+  color: white;
+  width: 400px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: 50px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.onBoxButton
+{
+  background-color:rgb(0, 208, 245);
+  border: none;
+  color:black;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  width:200px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  margin-top:40px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.txtBox
+{
+width:50%;
+float:right;
+margin-right:10px;
+}
+.contactPara
+{
+	float:right;
+	margin-right:10px;
+	color:#666;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:5px;
+}
+.textFloat
+{
+	float:right;
+	margin-right:40%;
+}
+.reachUs
+{
+	float:right;
+	margin-right:35%;
+}
+.bottomDiv
+{
+	background-image: url(../img/antique-black-cable-821754.jpg);
+        background-position: center;
+        background-size: cover;
+	height:390px;
+}
+.myRuler
+{
+	border-top:2px solid black;
+	width:75%;
+	margin-left:20px;
+}
+.myRuler2
+{
+	border-top:1px solid black;
+	width:75%;
+        opacity: 0.2;
+	margin-left:20px;
+}
+.contactHead
+{
+	margin-left:20px;
+	margin-top:20px;
+	color:black;
+}
+.contact{
+        margin-left:20px;
+	margin-top:20px;
+	color:black;
+        font-family:'Nanum Gothic', sans-serif;
+}
+.contactSub{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 20px;
+}
+.contactElemnts
+{
+	padding:10px;
+	width:320px;
+	opacity:0.8;
+	margin-left:20px;
+	margin-top:5px;
+	border:none;
+}
+.contactElemntsPhoto{
+    padding:10px;
+	width:320px;
+	opacity:0.8;
+	margin-left:20px;
+	margin-top:8px;
+	border:none;
+}
+a{
+    text-decoration: none;
+}
+.txtDate{
+        padding:10px;
+	width:200px;
+	opacity:0.8;
+	margin-left:20px;
+	margin-top:5px;
+	border:none;
+    
+}
+textarea
+{
+    resize: none;
+}
+.txtAr{
+    padding: 10px;
+    width: 425px;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.txtAr:focus
+{
+    opacity: 1;
+}
+.txtDate:focus{
+    opacity: 1;
+}
+.submitButton{
+    background-color: #666;
+    color: black;
+    height: 30px;
+    padding: 5px;
+}
+.submitButton2{
+    background-color: #666;
+    color: black;
+    height: 35px;
+    padding: 5px;
+}
+.contactElemnts:focus
+{
+	opacity:1;
+}
+.contactElemntsPhoto:focus
+{
+    opacity: 1;
+}
+#map {
+  width: 95%;
+  height: 285px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: grey;
+ }
+ .subscribe_txt{
+     border-radius:  10px 0px 0px 10px;
+     border:none;
+     padding-left: 8px;
+     margin-top: 5px;
+     color: #000;
+     float: left;
+     margin-left: 500px;
+     outline: none;
+     height: 25px;
+     font-size: 12px;
+ }
+ .subscribe_btn{
+     border:none;
+     height: 25px;
+     float: left;
+     background-color: #DCDCDC;
+     color: black;
+     margin-top: 5px;
+     border-radius: 0px 10px 10px 0px;
+     outline: none;
+ }
+ .social_icon{
+     margin-top: 12px;
+     width:30px;
+     height:20px;
+     margin-left: 5px;
+ }
+ .copyright{
+     margin-top: 6px;
+     font-size: 10px;
+     color: #FFF;
+     opacity: 0.5;
+     text-align: center;
+ }
+ .social_div{
+     margin-top: 20px;
+     text-align: center;
+ }
+ .bottom_row{
+     height: 100px;
+     background-color: #000
+ }
+ 
+ul.nav li a, ul.nav li a:visited {
+    color: gray;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #FFF;
+}
+
+ul.nav li.active a {
+    color: yellow;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 25px;
+  text-align: left;
+  overflow-wrap: break-word;
+  white-space: normal;
+  height: 350px;
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.card:hover {
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+}
+.container {
+    padding: 2px 16px;    
+}
+.packBg{
+    background-image: url(../img/wedding-celebration.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .tableP{
+       padding: 50px;
+   }
+   .tdp{
+       margin-left: 50px;
+   }
